@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>TripBoss</title>
+        <title>TripBoss App</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- font awesome cdn -->
@@ -16,6 +16,13 @@
         <link rel = "stylesheet" href = "css/utility.css">
         <link rel = "stylesheet" href = "css/style.css">
         <link rel = "stylesheet" href = "css/responsive.css">
+        <link rel="manifest" href="/manifest.json">
+
+    <!-- ios support -->
+   <link rel="apple-touch-icon" href="icons/app-icon-96-96.png">
+   <meta name="apple-mobile-web-app-status-bar" content="#00695c">
+   <meta name="theme-color" content="#00695c">
+
     </head>
     <body>
         <!-- navbar  -->
@@ -37,12 +44,6 @@
                             <a href = "index.html" class = "nav-link">Home</a>
                         </li>
                         <li class = "nav-item">
-                            <a href = "gallery.html" class = "nav-link">Gallery</a>
-                        </li>
-                        <li class = "nav-item">
-                            <a href = "blog.html" class = "nav-link">Blog</a>
-                        </li>
-                        <li class = "nav-item">
                             <a href = "about.html" class = "nav-link">About</a>
                         </li>
                         <li class = "nav-item">
@@ -59,7 +60,7 @@
             <div class = "container">
                 <div class = "header-title">
                     <h1>Leave Your Footprints</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus rerum maxime enim odit illum in molestias beatae doloremque, ratione optio.</p>
+                    <p>Embark on unforgettable journeys and create lasting memories. Let your adventures leave a mark on the world, one step at a time. Explore new places, embrace new cultures, and make every moment count. Your footprints will inspire others to follow in your path.</p>
                 </div>
                 <div class = "header-form">
                     <h2>Choose your Travel location:</h2>
@@ -84,79 +85,79 @@
 
                 <div class = "featured-row">
                     <div class = "featured-item my-2 shadow">
-                        <img src = "images/featured-reo-de-janeiro-brazil.jpg" alt = "featured place">
+                        <img src = "images/featured-reo-de-janeiro-brazil.webp" alt = "featured place">
                         <div class = "featured-item-content">
                             <span>
                                 <i class = "fas fa-map-marker-alt"></i>
                                 Reo De Janeiro, Brazil
                             </span>
                             <div>
-                                <p class = "text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta sed dignissimos libero soluta illum, harum amet excepturi sit?</p>
+                                <p class = "text">Explore the vibrant city of Rio, famous for its stunning beaches, iconic Christ the Redeemer statue, and lively samba culture.</p>
                             </div>
                         </div>
                     </div>
 
                     <div class = "featured-item my-2 shadow">
-                        <img src = "images/featured-north-bondi-australia.jpg" alt = "featured place">
+                        <img src = "images/featured-north-bondi-australia.webp" alt = "featured place">
                         <div class = "featured-item-content">
                             <span>
                                 <i class = "fas fa-map-marker-alt"></i>
                                 North Bondi, Australia
                             </span>
                             <div>
-                                <p class = "text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta sed dignissimos libero soluta illum, harum amet excepturi sit?</p>
+                                <p class = "text">Relax in the laid-back atmosphere of North Bondi, known for its beautiful beach, clear waters, and vibrant surf culture.</p>
                             </div>
                         </div>
                     </div>
 
                     <div class = "featured-item my-2 shadow">
-                        <img src = "images/featured-berlin-germany.jpg" alt = "featured place">
+                        <img src = "images/featured-berlin-germany.webp" alt = "featured place">
                         <div class = "featured-item-content">
                             <span>
                                 <i class = "fas fa-map-marker-alt"></i>
                                 Berlin, Germany
                             </span>
                             <div>
-                                <p class = "text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta sed dignissimos libero soluta illum, harum amet excepturi sit?</p>
+                                <p class = "text">Discover the rich history and dynamic culture of Berlin. From the iconic Brandenburg Gate to the lively arts scene, the city blends tradition.</p>
                             </div>
                         </div>
                     </div>
 
                     <div class = "featured-item my-2 shadow">
-                        <img src = "images/featured-khwaeng-wat-arun-thailand.jpg" alt = "featured place">
+                        <img src = "images/featured-khwaeng-wat-arun-thailand.webp" alt = "featured place">
                         <div class = "featured-item-content">
                             <span>
                                 <i class = "fas fa-map-marker-alt"></i>
                                 Khwaeng wat arun, thailand
                             </span>
                             <div>
-                                <p class = "text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta sed dignissimos libero soluta illum, harum amet excepturi sit?</p>
+                                <p class = "text">Admire the stunning Wat Arun temple, known for its beautiful architecture and riverside views, a true highlight of Bangkok.</p>
                             </div>
                         </div>
                     </div>
 
                     <div class = "featured-item my-2 shadow">
-                        <img src = "images/featured-rome-italy.jpg" alt = "featured place">
+                        <img src = "images/featured-rome-italy.webp" alt = "featured place">
                         <div class = "featured-item-content">
                             <span>
                                 <i class = "fas fa-map-marker-alt"></i>
                                 Rome, Italy
                             </span>
                             <div>
-                                <p class = "text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta sed dignissimos libero soluta illum, harum amet excepturi sit?</p>
+                                <p class = "text">Step into history in Rome, where ancient landmarks like the Colosseum and the Roman Forum blend with vibrant street life.</p>
                             </div>
                         </div>
                     </div>
 
                     <div class = "featured-item my-2 shadow">
-                        <img src = "images/featured-fuvahmulah-maldives.jpg" alt = "featured place">
+                        <img src = "images/featured-fuvahmulah-maldives.webp" alt = "featured place">
                         <div class = "featured-item-content">
                             <span>
                                 <i class = "fas fa-map-marker-alt"></i>
                                 fuvahmulah, maldives
                             </span>
                             <div>
-                                <p class = "text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta sed dignissimos libero soluta illum, harum amet excepturi sit?</p>
+                                <p class = "text">Explore the tranquil beauty of Fuvahmulah, with its clear waters, beautiful beaches, and rich marine life.</p>
                             </div>
                         </div>
                     </div>
@@ -179,7 +180,7 @@
                             <i class = "fas fa-hotel"></i>
                         </span>
                         <h3>Luxurious Hotel</h3>
-                        <p class = "text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem quo, totam repellat velit, dignissimos sequi error a minima architecto fugit nisi dolorum repellendus?</p>
+                        <p class = "text">Indulge in the elegance of our luxurious hotel, where every detail is crafted for comfort and style. Experience exceptional service, world-class amenities, and a stay like no other.</p>
                         <a href = "#" class = "btn">Read more</a>
                     </div>
 
@@ -187,8 +188,8 @@
                         <span class = "services-icon">
                             <i class = "fas fa-map-marked-alt"></i>
                         </span>
-                        <h3>Trave Guide</h3>
-                        <p class = "text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem quo, totam repellat velit, dignissimos sequi error a minima architecto fugit nisi dolorum repellendus?</p>
+                        <h3>Travel Guide</h3>
+                        <p class = "text">Explore the world with our expert travel guide, offering tips, recommendations, and hidden gems to make your journey unforgettable. Discover the best destinations, local experiences, and essential travel advice.</p>
                         <a href = "#" class = "btn">Read more</a>
                     </div>
 
@@ -197,72 +198,13 @@
                             <i class = "fas fa-money-bill"></i>
                         </span>
                         <h3>Suitable Price</h3>
-                        <p class = "text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem quo, totam repellat velit, dignissimos sequi error a minima architecto fugit nisi dolorum repellendus?</p>
+                        <p class = "text">Enjoy great value with our offerings, designed to fit your budget without compromising on quality. Affordable options for every traveler. We provide affordable options to ensure every traveler can enjoy a memorable trip.</p>
                         <a href = "#" class = "btn">Read more</a>
                     </div>
                 </div>
             </div>
         </section>
         <!-- end of services section -->
-
-        <!-- testimonials section -->
-        <section id = "testimonials" class = "py-4">
-            <div class = "container">
-                <div class = "title-wrap">
-                    <span class = "sm-title">what our clients say about us</span>
-                    <h2 class = "lg-title">testimonials</h2>
-                </div>
-
-                <div class = "test-row">
-                    <div class = "test-item">
-                        <p class = "text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda blanditiis, asperiores, velit iste eos officiis tempora magni quaerat quo consectetur expedita cum recusandae facere nam voluptate minus iusto eum. Delectus!</p>
-                        <div class = "test-item-info">
-                            <img src = "images/test-1.jpg" alt = "testimonial">
-                            <div>
-                                <h3>Kevin Wilson</h3>
-                                <p class = "text">Trip to Brazil</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class = "test-item">
-                        <p class = "text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed ut dolores tenetur harum deserunt. Maxime tenetur consectetur recusandae nobis fugit iusto natus quibusdam nulla!</p>
-                        <div class = "test-item-info">
-                            <img src = "images/test-2.jpg" alt = "testimonial">
-                            <div>
-                                <h3>Ben Davis</h3>
-                                <p class = "text">Trip to Maldives</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class = "test-item">
-                        <p class = "text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem sapiente amet expedita quae autem deleniti quo magni numquam facilis soluta dicta, praesentium ipsum, quos optio sed quibusdam! Reprehenderit recusandae provident id nemo!</p>
-                        <div class = "test-item-info">
-                            <img src = "images/test-3.jpg" alt = "testimonial">
-                            <div>
-                                <h3>Jaura Jones</h3>
-                                <p class = "text">Trip to Thailand</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- end of testimonials section -->
-
-        <!-- video section -->
-        <section id = "video">
-            <div class = "video-wrapper flex">
-                <video loop>
-                    <source src = "videos/video-section.mp4" type = "video/mp4">
-                </video>
-                <button type = "button" id = "play-btn">
-                    <i class = "fas fa-play"></i>
-                </button>
-            </div>
-        </section>
-        <!-- end of video section -->
 
         <!-- footer -->
         <footer class = "py-4">
@@ -271,7 +213,7 @@
                     <a href = "index.html" class = "site-brand">
                         Trip<span>Boss</span>
                     </a>
-                    <p class = "text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet voluptates maiores nam vitae iusto. Placeat rem sint voluptas natus exercitationem autem quod neque, odit laudantium reiciendis ipsa suscipit veritatis voluptate.</p>
+                    <p class = "text">TripBoss is your trusted travel partner. We help organize trips, select the best routes, and offer unique tours to make your journey unforgettable.</p>
                 </div>
 
                 <div class = "footer-item">
@@ -328,17 +270,7 @@
         <!-- end of footer -->
 
         <!-- js -->
-        <script src = "js/script.js"></script>
-        <script>
-            // play/pause video
-            let video = document.querySelector('.video-wrapper video');
-            document.getElementById('play-btn').addEventListener('click', () => {
-                if(video.paused){
-                    video.play();
-                } else {
-                    video.pause();
-                }
-            });
-        </script>
+        <script src = "/js/script.js"></script>
+        <script src="/js/app.js"></script>
     </body>
 </html>
