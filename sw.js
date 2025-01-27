@@ -14,7 +14,16 @@ const ASSETS_TO_CACHE = [
   '/font/fonts.css',
   '/images/header-bg.webp',
   '/images/services-bg.webp',
-  '/default.html',
+  '/images/about-img.webp',
+  '/images/facts-img.webp',
+  '/images/featured-berlin-germany.webp',
+  '/images/featured-fuvahmulah-maldives.webp',
+  '/images/featured-khwaeng-wat-arun-thailand.webp',
+  '/images/featured-north-bondi-australia.webp',
+  '/images/featured-reo-de-janeiro-brazil.webp',
+  '/images/featured-rome-italy.webp',
+  '/images/icon.webp',
+  '/default.html'
 ];
 
 // Install event - caching static assets
