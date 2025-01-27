@@ -3,7 +3,10 @@ const DYNAMIC_CACHE_NAME = 'dynamic-cache-v1';
 const ASSETS_TO_CACHE = [
   '/',
   '/index.html',
+  '/about.html',
+  '/contact.html',
   '/js/app.js',
+  '/js/script.js',
   '/css/style.css',
   '/css/normalize.css',
   '/css/responsive.css',
